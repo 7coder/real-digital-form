@@ -46,7 +46,16 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {},
+    "rules": {
+      "prettier/prettier": [
+        "error",
+        {
+          "printWidth": 120,
+          "trailingComma": "all",
+          "bracketSameLine": true
+        }
+      ]
+    },
     "overrides": [
       {
         "files": [
